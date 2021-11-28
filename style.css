@@ -1,0 +1,52 @@
+body
+{
+    background-color: orange;
+}
+
+#label
+{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+#confidence
+{
+    font-family: 'Times New Roman';
+    font-size: 25px;
+}
+
+h1
+{
+    font-style: initial;
+    font-family: fantasy;
+    color: blue;
+    background-color: crimson;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+p
+{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+canvas
+{
+    animation-duration: 4s;
+    animation-name: example;
+    animation-iteration-count: infinite;
+    border: 2px solid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px grey;}
+    to{box-shadow: 1px 1px 38px white;}
+}
